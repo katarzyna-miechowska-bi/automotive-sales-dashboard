@@ -206,7 +206,7 @@ Pricing inefficiencies in selected segments.
 
 ## 🔗 Project Links
 
-**Power BI Dashboard:** [Add Power BI Service Link]
+**Power BI Dashboard:** https://app.powerbi.com/view?r=eyJrIjoiYTUwMjIwZWItNTJlYy00N2Q3LTljODctZjg1MTliZDg5Mzg1IiwidCI6IjNkZmU5YWI2LTgxYmYtNDkxYy1iNjcwLTAxYzgyNGEwOWUxOSJ9
 
 **GitHub Repository:** [Add Repository Link]
 
