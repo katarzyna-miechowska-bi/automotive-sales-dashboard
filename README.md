@@ -220,4 +220,4 @@ Feel free to connect with me on LinkedIn to discuss this project or opportunitie
 
 ## ⭐ Portfolio Project
 
-This project demonstrates an end-to-end Business Intelligence workflow, from raw data processing and modeling to interactive dashboard development and business insights generation..
+This project demonstrates an end-to-end Business Intelligence workflow, from raw data processing and modeling to interactive dashboard development and business insights generation.
