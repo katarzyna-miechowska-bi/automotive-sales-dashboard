@@ -2,7 +2,7 @@
 
 ## 📌 Project Overview
 
-The Automotive Sales Dashboard is an end-to-end Business Intelligence project built in Power BI to analyze sales performance, dealer efficiency, market trends, and customer behavior in the automotive industry.
+The Automotive Sales Dashboard is an end-to-end Business Intelligence solution built in Power BI to analyze sales performance, dealer efficiency, market trends, and customer behavior in the automotive industry.
 
 The project transforms raw transactional data into an interactive analytical solution that supports business decision-making through KPIs, trends, and performance insights.
 
@@ -39,168 +39,134 @@ The dataset includes approximately **23.9K vehicle sales transactions** and cont
 ## 🛠️ Tools & Technologies
 
 - Power BI
-- DAX
-- Power Query
-- Data Modeling
+- Power Query (ETL)
+- DAX (Data Analysis Expressions)
+- Data Modeling (Star Schema)
 - Excel
-- Data Visualization
-- Business Intelligence
+- Data Visualization & Business Storytelling
 
 ---
 
-## 📈 Dashboard Structure
+# 📈 Dashboard Structure
 
-### 1️⃣ Sales Overview
+## 1️⃣ Report Intro & Navigation
+An interactive landing page providing an overview of the report structure, target audience (Executive Management, Sales Directors, Dealer Network Managers), and direct navigation to key analytic sections.
 
-High-level view of overall business performance.
+---
+
+## 2️⃣ Sales Overview
+High-level view of overall business performance and growth drivers.
 
 **Key KPIs:**
-- Total Sales
-- Total Vehicles Sold
-- Average Vehicle Price
-- Year-over-Year (YoY) Growth
+- Total Sales ($671.5M)
+- Total Vehicles Sold (23.9K)
+- Average Vehicle Price ($28.1K)
+- Year-over-Year (YoY) Sales Growth (+123.6%)
 
-**Analysis:**
-- Monthly sales trends
-- Seasonality patterns
-- Top manufacturers by revenue
-- Price vs volume relationship
+**Analysis Included:**
+- Monthly sales trends with seasonality patterns
+- Sales Growth Drivers: Volume vs. Price analysis
+- Top 5 Companies by Sales Value (led by Chevrolet at $47.2M)
 
 ---
 
-### 2️⃣ Market Analytics
-
-Market positioning and competitive performance analysis.
+## 3️⃣ Market Analytics
+Market positioning, competitive performance, and brand distribution analysis.
 
 **Key KPIs:**
-- Market Share by Dealers
-- Average Market Price
-- Market Growth
+- Top Dealer Market Share (5.6%)
+- Market Average Price ($28K)
+- Market Activity Growth (124.6%)
 
-**Analysis:**
-- Brand positioning
-- Segment performance (SUV, Sedan, etc.)
-- Market share distribution
-- Pricing impact on competitiveness
+**Analysis Included:**
+- Competitive positioning across time periods, dealers, and body styles
+- Market Share by Body Style (led by Hatchback at 22.3% and SUV at 20.9%)
+- Selected Brand vs. Market Average Price by Body Style
 
 ---
 
-### 3️⃣ Customer & Dealer Insights
-
-Analysis of customer base and regional performance.
+## 4️⃣ Customer & Dealer Insights
+Analysis of customer demographics, regional performance, and purchasing power.
 
 **Key KPIs:**
-- Number of Customers
-- Average Customer Income
-- Average Spend per Customer
-- Cars per Customer
+- Number of Customers (3,022)
+- Cars per Customer (7.9)
+- Average Vehicle Price ($28.09K)
+- Average Spend per Customer ($222K)
 
-**Analysis:**
-- Customer demographics breakdown
-- Regional sales performance
-- Dealer ranking
-- Customer behavior patterns
-
----
-
-### 4️⃣ Dealer Performance Analysis
-
-Dealer benchmarking and revenue concentration analysis.
-
-**Key Insights:**
-- Dealer ranking by revenue
-- Performance comparison across regions
-- Sales vs pricing analysis
-- Market share contribution
-
-**Business Insight:**
-Approximately **21 dealers generate 80% of total revenue**, indicating a diversified but unevenly distributed performance structure across the network.
-
-This suggests reduced dependency on a small group of top-performing dealers, but highlights opportunities for optimization among mid-tier dealers.
+**Analysis Included:**
+- Customer Distribution by Gender and Average Annual Income by Gender
+- Customer Affordability Index (highlighting that only 3.4% of customers whose annual income allows purchasing offered vehicles)
+- Total Sales by Dealer Region (led by Austin at $117.2M)
+- Top 5 Dealers by Total Sales
 
 ---
 
-### 5️⃣ Business Recommendations
+## 5️⃣ Dealer Performance Analysis (Regional)
+Dealer benchmarking, revenue concentration, and Pareto distribution analysis.
 
-Data-driven recommendations based on analytical findings:
-
-**Insight 1:**
-Customer affordability is not fully aligned with income levels.
-→ Recommendation: introduce financing and leasing options.
-
-**Insight 2:**
-Uneven performance across dealers and regions.
-→ Recommendation: improve dealer support and performance monitoring.
-
-**Insight 3:**
-Pricing inefficiencies in selected segments.
-→ Recommendation: optimize pricing strategy to improve competitiveness and market share.
+**Key KPIs & Insights:**
+- Total Sales ($671.5M)
+- Average Sales per Dealer ($24.0M)
+- Median Sales per Dealer ($17.7M)
+- Top Dealer Revenue Share (5.6%)
+- Top 5 Share (27%)
+- **Revenue Concentration (Pareto Analysis):** Exactly 21 dealers generate 80% of total sales, indicating a diversified but unevenly distributed performance structure.
 
 ---
 
-## 📊 Key Business Insights
+## 6️⃣ Business Recommendations
+Actionable, data-driven strategies derived directly from report insights:
 
-- Total sales exceeded **$671M**
-- Strong year-over-year growth in vehicle sales
-- SUV segment represented the largest market share
-- Sales show clear seasonal patterns
-- Top manufacturers dominate revenue distribution
-- Customer base shows high income but moderate purchasing efficiency
-- Dealer performance varies significantly across regions
-
----
-
-## 🧠 Skills Demonstrated
-
-### Data Preparation
-- Data cleaning and transformation
-- Handling missing and inconsistent data
-- Power Query ETL processes
-
-### Data Modeling
-- Star schema design
-- Relationship building
-- Fact and dimension tables
-
-### DAX & Analytics
-- Time intelligence calculations
-- YoY growth measures
-- KPI development
-- Dynamic calculations
-
-### Data Visualization
-- Interactive dashboard design
-- KPI reporting
-- Business storytelling
-
-### Business Analysis
-- Trend analysis
-- Customer segmentation
-- Market analysis
-- Dealer performance evaluation
-- Strategic recommendations
+*   **Insight #1: Very low customer affordability despite high average income**
+    *   *Recommendation:* Introduce targeted financing options (e.g., leasing or installments) to improve affordability for customers with limited purchasing power.
+    *   *Expected Impact:* +10-15% sales uplift within 6-9 months.
+*   **Insight #2: Uneven sales performance among top dealers across regions**
+    *   *Recommendation:* Increase marketing support and performance-based incentives for underperforming top dealers to reduce regional sales gaps.
+    *   *Expected Impact:* +5-10% total sales increase within 3-6 months.
+*   **Insight #3: Suboptimal price-to-market-share positioning within the SUV body style segment**
+    *   *Recommendation:* Adjust pricing for SUV models with low market share to improve competitiveness within the segment.
+    *   *Expected Impact:* +3-3 pp market share increase within 6-9 months.
 
 ---
 
-## 📷 Dashboard Preview
+# 📊 Key Business Insights Summary
 
-### Overview Dashboard
-![Overview](images/landing-page.png)
+- Total sales exceeded **$671.5M** with a massive YoY growth of **+123.6%**.
+- Revenue concentration analysis shows a healthy network structure where **21 dealers secure 80% of total revenue**.
+- The Hatchback (22.25%) and SUV (20.91%) segments dominate total market share.
+- Severe affordability constraint identified: only **3.4%** of target customers can comfortably afford outright vehicle purchases without financing structures.
 
-### Sales Analysis
-![Sales](images/sales-overview.png)
+---
 
-### Market Analysis
-![Market](images/market-analytics.png)
+# 🧠 Skills Demonstrated
 
-### Customer Insights
-![Customers](images/customer-dealer-insights.png)
+*   **Data Preparation:** Data cleaning, transformation, and Power Query ETL processing.
+*   **Data Modeling:** Fact and dimension table separation utilizing an optimized Star Schema.
+*   **DAX & Analytics:** Time intelligence calculations (YoY Growth), dynamic KPI cards, and Pareto revenue concentration formatting.
+*   **Data Visualization:** Interactive UX/UI dashboard design, conditional formatting, and strategic business storytelling.
 
-### Dealer Performance Drill-Down
-![Dealers](images/dealer-performance.png)
+---
 
-### Recommendations
-![Recommendations](images/recommendations.png)
+# 📷 Dashboard Preview
+
+### Landing Page
+![Landing Page](images/landing-page.png)
+
+### Sales Overview
+![Sales Overview](images/sales-overview.png)
+
+### Market Analytics
+![Market Analytics](images/market-analytics.png)
+
+### Customer & Dealer Insights
+![Customer Insights](images/customer-dealer-insights.png)
+
+### Dealer Performance Analysis
+![Dealer Performance](images/dealer-performance.png)
+
+### Business Recommendations
+![Business Recommendations](images/recommendations.png)
 
 ---
 
