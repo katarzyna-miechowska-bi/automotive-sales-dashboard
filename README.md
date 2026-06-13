@@ -196,7 +196,7 @@ Pricing inefficiencies in selected segments.
 ### Customer Insights
 ![Customers](images/customer-dealer-insights.png)
 
-### Dealer Performance
+### Dealer Performance Drill-Down
 ![Dealers](images/dealer-performance.png)
 
 ### Recommendations
