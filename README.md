@@ -115,7 +115,7 @@ Dealer benchmarking, revenue concentration, and Pareto distribution analysis.
 
 ---
 
-## 6️⃣ Business Recommendations
+## 6️⃣ Recommendations
 Actionable, data-driven strategies derived directly from report insights:
 
 *   **Insight #1: Very low customer affordability despite high average income**
@@ -162,11 +162,11 @@ Actionable, data-driven strategies derived directly from report insights:
 ### Customer & Dealer Insights
 ![Customer Insights](images/customer-dealer-insights.png)
 
-### Dealer Performance Analysis
+### Dealer Performance Analysis Drill-Down
 ![Dealer Performance](images/dealer-performance.png)
 
-### Business Recommendations
-![Business Recommendations](images/recommendations.png)
+### Recommendations
+![Recommendations](images/recommendations.png)
 
 ---
 
