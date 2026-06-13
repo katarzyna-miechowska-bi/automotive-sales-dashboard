@@ -206,9 +206,9 @@ Pricing inefficiencies in selected segments.
 
 ## 🔗 Project Links
 
-**Power BI Dashboard:** https://app.powerbi.com/view?r=eyJrIjoiYTUwMjIwZWItNTJlYy00N2Q3LTljODctZjg1MTliZDg5Mzg1IiwidCI6IjNkZmU5YWI2LTgxYmYtNDkxYy1iNjcwLTAxYzgyNGEwOWUxOSJ9
+**Power BI Dashboard:** [https://app.powerbi.com/view?r=eyJrIjoiYTUwMjIwZWItNTJlYy00N2Q3LTljODctZjg1MTliZDg5Mzg1IiwidCI6IjNkZmU5YWI2LTgxYmYtNDkxYy1iNjcwLTAxYzgyNGEwOWUxOSJ9]
 
-**GitHub Repository:** https://github.com/katarzyna-miechowska-bi/automotive-sales-dashboard
+**GitHub Repository:** [https://github.com/katarzyna-miechowska-bi/automotive-sales-dashboard]
 
 ---
 
