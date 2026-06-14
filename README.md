@@ -47,6 +47,42 @@ The dataset includes approximately **23.9K vehicle sales transactions** and cont
 
 ---
 
+## 📐 Data Model
+
+The data model follows a Star Schema design optimized for analytical reporting and time intelligence calculations.
+
+The FACT_Sales table contains transactional sales data at the granular level and is connected to supporting dimension tables such as:
+
+* Calendar
+* Company
+* Body Style
+
+The model enables efficient filtering, KPI calculations, market share analysis, and time intelligence reporting.
+
+![Data Model](images/data-model.png)
+
+---
+
+## 🧮 Key DAX Measures
+
+### Customer Affordability Index
+
+Measures the percentage of customers whose annual income is sufficient to purchase vehicles at the average market price.
+
+### YoY Sales Growth %
+
+Measures year-over-year sales performance using Time Intelligence calculations.
+
+### Market Share %
+
+Calculates the sales contribution of selected brands, dealers, or body styles relative to the total market.
+
+### Pareto Revenue %
+
+Calculates cumulative revenue contribution to identify the dealers generating 80% of total sales.
+
+---
+
 # 📈 Dashboard Structure
 
 ## 1️⃣ Report Intro & Navigation
